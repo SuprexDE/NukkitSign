@@ -1,0 +1,5 @@
+name: NukkitSign
+version: ${project.version}
+main: de.suprexde.nukkitSign.NukkitSign
+author: SuprexDE
+api-version: ["1.0.0"]

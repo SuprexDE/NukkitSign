@@ -1,0 +1,19 @@
+#
+# DONT EDIT configVersion!
+#
+configVersion: 1.0
+# List of placeholders: %player%, %time%, %line% & %signlenght%
+
+settings:
+  prefix: "§b§lNukkitSign§r §8»"
+  allowMultiItemSign: true
+  maxSignlenght: 20
+
+messages:
+  signCommandDescription: "Sign an item"
+  noIteminHand: "&cYou have no item in hand."
+  disableMultiItemSign: "&cYou can only sign one item."
+  maxSignlenghterror: "&cThe signature text can be up to %signlenght% characters long."
+  signNoText: "%line% %line%&r&7Signed by &c%player% &7on %time%!"
+  signText: "&r&7%text% %line%&8&l_____________ &r %line% %line%&r&7Signed by &c%player% &7on %time%!"
+  successfulmessage: "&aYou have successfully signed the item."
